@@ -1,0 +1,641 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>cold-chain documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">cold-chain documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li >RefrigeratorEffects</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>libs/refrigerator/src/lib/effects/refrigerator.effects.ts</code>
+        </p>
+
+
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#createRefrigerator$" >createRefrigerator$</a>
+                            </li>
+                            <li>
+                                <a href="#createRefrigeratorSuccess$" >createRefrigeratorSuccess$</a>
+                            </li>
+                            <li>
+                                <a href="#deleteRefrigerator$" >deleteRefrigerator$</a>
+                            </li>
+                            <li>
+                                <a href="#deleteRefrigeratorSuccess$" >deleteRefrigeratorSuccess$</a>
+                            </li>
+                            <li>
+                                <a href="#loadRefrigerator$" >loadRefrigerator$</a>
+                            </li>
+                            <li>
+                                <a href="#updateRefrigerator$" >updateRefrigerator$</a>
+                            </li>
+                            <li>
+                                <a href="#updateRefrigeratorSuccess$" >updateRefrigeratorSuccess$</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(actions$: Actions, refrigeratorService: <a href="../injectables/RefrigeratorService.html" target="_self">RefrigeratorService</a>, alertService: <a href="../injectables/AlertService.html" target="_self">AlertService</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="108" class="link-to-prism">libs/refrigerator/src/lib/effects/refrigerator.effects.ts:108</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>actions$</td>
+                                                  
+                                                        <td>
+                                                                    <code>Actions</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>refrigeratorService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/RefrigeratorService.html" target="_self" >RefrigeratorService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>alertService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AlertService.html" target="_self" >AlertService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+            <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createRefrigerator$"></a>
+                    <span class="name">
+                        <span ><b>createRefrigerator$</b></span>
+                        <a href="#createRefrigerator$"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createEffect(() &#x3D;&gt; {
+    return this.actions$.pipe(
+      ofType(RefrigeratorActions.createRefrigerator),
+      map((action: any) &#x3D;&gt; action?.data),
+      switchMap((refrigerator) &#x3D;&gt;
+        this.refrigeratorService.createRefrigerator(refrigerator).pipe(
+          map((data) &#x3D;&gt; createRefrigeratorSuccess({ data })),
+          catchError((error) &#x3D;&gt; of(createRefrigeratorFailure({ error })))
+        )
+      )
+    );
+  })</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">libs/refrigerator/src/lib/effects/refrigerator.effects.ts:24</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createRefrigeratorSuccess$"></a>
+                    <span class="name">
+                        <span ><b>createRefrigeratorSuccess$</b></span>
+                        <a href="#createRefrigeratorSuccess$"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createEffect(
+    () &#x3D;&gt; {
+      return this.actions$.pipe(
+        ofType(RefrigeratorActions.createRefrigeratorSuccess),
+        tap(() &#x3D;&gt; {
+          this.alertService.Messagesuccess(&#x27;Refrigerador creado con exito&#x27;);
+          this.router.navigate([&#x27;refrigerator&#x27;]);
+        })
+      );
+    },
+    { dispatch: false }
+  )</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">libs/refrigerator/src/lib/effects/refrigerator.effects.ts:36</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteRefrigerator$"></a>
+                    <span class="name">
+                        <span ><b>deleteRefrigerator$</b></span>
+                        <a href="#deleteRefrigerator$"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createEffect(() &#x3D;&gt; {
+    return this.actions$.pipe(
+      ofType(RefrigeratorActions.deleteRefrigerator),
+      map((action: any) &#x3D;&gt; action?.data),
+      switchMap((refrigerator) &#x3D;&gt;
+        this.refrigeratorService.deleteRefrigerator(refrigerator?.id).pipe(
+          map(() &#x3D;&gt; deleteRefrigeratorSuccess()),
+          catchError((error) &#x3D;&gt; of(deleteRefrigeratorFailure({ error })))
+        )
+      )
+    );
+  })</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">libs/refrigerator/src/lib/effects/refrigerator.effects.ts:73</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteRefrigeratorSuccess$"></a>
+                    <span class="name">
+                        <span ><b>deleteRefrigeratorSuccess$</b></span>
+                        <a href="#deleteRefrigeratorSuccess$"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createEffect(() &#x3D;&gt; {
+    return this.actions$.pipe(
+      ofType(RefrigeratorActions.deleteRefrigeratorSuccess),
+      tap(() &#x3D;&gt; {
+        this.alertService.Messagesuccess(&#x27;Refrigerador eliminado con exito&#x27;);
+      }),
+      map(() &#x3D;&gt; loadRefrigerators())
+    );
+  })</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="100" class="link-to-prism">libs/refrigerator/src/lib/effects/refrigerator.effects.ts:100</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadRefrigerator$"></a>
+                    <span class="name">
+                        <span ><b>loadRefrigerator$</b></span>
+                        <a href="#loadRefrigerator$"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createEffect(() &#x3D;&gt; {
+    return this.actions$.pipe(
+      ofType(RefrigeratorActions.loadRefrigerator),
+      map((action: any) &#x3D;&gt; action?.data),
+      switchMap((id) &#x3D;&gt;
+        this.refrigeratorService.getRefrigerator(id).pipe(
+          map((refrigerator) &#x3D;&gt;
+            loadRefrigeratorSuccess({ data: refrigerator })
+          ),
+          catchError((error) &#x3D;&gt; of(loadRefrigeratorFailure({ error })))
+        )
+      )
+    );
+  })</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="85" class="link-to-prism">libs/refrigerator/src/lib/effects/refrigerator.effects.ts:85</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateRefrigerator$"></a>
+                    <span class="name">
+                        <span ><b>updateRefrigerator$</b></span>
+                        <a href="#updateRefrigerator$"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createEffect(() &#x3D;&gt; {
+    return this.actions$.pipe(
+      ofType(RefrigeratorActions.updateRefrigerator),
+      map((action: any) &#x3D;&gt; action?.data),
+      switchMap((refrigerator) &#x3D;&gt;
+        this.refrigeratorService.editRefrigerator(refrigerator).pipe(
+          map((data) &#x3D;&gt; updateRefrigeratorSuccess({ data })),
+          catchError((error) &#x3D;&gt; of(updateRefrigeratorFailure({ error })))
+        )
+      )
+    );
+  })</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">libs/refrigerator/src/lib/effects/refrigerator.effects.ts:48</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateRefrigeratorSuccess$"></a>
+                    <span class="name">
+                        <span ><b>updateRefrigeratorSuccess$</b></span>
+                        <a href="#updateRefrigeratorSuccess$"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createEffect(
+    () &#x3D;&gt; {
+      return this.actions$.pipe(
+        ofType(RefrigeratorActions.updateRefrigeratorSuccess),
+        tap(() &#x3D;&gt; {
+          this.alertService.Messagesuccess(&#x27;Refrigerador editado con exito&#x27;);
+          this.router.navigate([&#x27;refrigerator&#x27;]);
+        })
+      );
+    },
+    { dispatch: false }
+  )</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="60" class="link-to-prism">libs/refrigerator/src/lib/effects/refrigerator.effects.ts:60</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Injectable } from &#x27;@angular/core&#x27;;
+import { Actions, createEffect, ofType } from &#x27;@ngrx/effects&#x27;;
+import { RefrigeratorService } from &#x27;../services/refrigerator.service&#x27;;
+import {
+  createRefrigeratorFailure,
+  createRefrigeratorSuccess,
+  deleteRefrigeratorFailure,
+  deleteRefrigeratorSuccess,
+  loadRefrigerators,
+  RefrigeratorActions,
+  loadRefrigeratorFailure,
+  loadRefrigeratorSuccess,
+  updateRefrigeratorFailure,
+  updateRefrigeratorSuccess,
+} from &#x27;../actions/refrigerator.actions&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { catchError, map, switchMap, tap } from &#x27;rxjs/operators&#x27;;
+import { AlertService } from &#x27;@cold-chain/utils&#x27;;
+import { of } from &#x27;rxjs&#x27;;
+
+@Injectable()
+export class RefrigeratorEffects {
+  createRefrigerator$ &#x3D; createEffect(() &#x3D;&gt; {
+    return this.actions$.pipe(
+      ofType(RefrigeratorActions.createRefrigerator),
+      map((action: any) &#x3D;&gt; action?.data),
+      switchMap((refrigerator) &#x3D;&gt;
+        this.refrigeratorService.createRefrigerator(refrigerator).pipe(
+          map((data) &#x3D;&gt; createRefrigeratorSuccess({ data })),
+          catchError((error) &#x3D;&gt; of(createRefrigeratorFailure({ error })))
+        )
+      )
+    );
+  });
+  createRefrigeratorSuccess$ &#x3D; createEffect(
+    () &#x3D;&gt; {
+      return this.actions$.pipe(
+        ofType(RefrigeratorActions.createRefrigeratorSuccess),
+        tap(() &#x3D;&gt; {
+          this.alertService.Messagesuccess(&#x27;Refrigerador creado con exito&#x27;);
+          this.router.navigate([&#x27;refrigerator&#x27;]);
+        })
+      );
+    },
+    { dispatch: false }
+  );
+  updateRefrigerator$ &#x3D; createEffect(() &#x3D;&gt; {
+    return this.actions$.pipe(
+      ofType(RefrigeratorActions.updateRefrigerator),
+      map((action: any) &#x3D;&gt; action?.data),
+      switchMap((refrigerator) &#x3D;&gt;
+        this.refrigeratorService.editRefrigerator(refrigerator).pipe(
+          map((data) &#x3D;&gt; updateRefrigeratorSuccess({ data })),
+          catchError((error) &#x3D;&gt; of(updateRefrigeratorFailure({ error })))
+        )
+      )
+    );
+  });
+  updateRefrigeratorSuccess$ &#x3D; createEffect(
+    () &#x3D;&gt; {
+      return this.actions$.pipe(
+        ofType(RefrigeratorActions.updateRefrigeratorSuccess),
+        tap(() &#x3D;&gt; {
+          this.alertService.Messagesuccess(&#x27;Refrigerador editado con exito&#x27;);
+          this.router.navigate([&#x27;refrigerator&#x27;]);
+        })
+      );
+    },
+    { dispatch: false }
+  );
+
+  deleteRefrigerator$ &#x3D; createEffect(() &#x3D;&gt; {
+    return this.actions$.pipe(
+      ofType(RefrigeratorActions.deleteRefrigerator),
+      map((action: any) &#x3D;&gt; action?.data),
+      switchMap((refrigerator) &#x3D;&gt;
+        this.refrigeratorService.deleteRefrigerator(refrigerator?.id).pipe(
+          map(() &#x3D;&gt; deleteRefrigeratorSuccess()),
+          catchError((error) &#x3D;&gt; of(deleteRefrigeratorFailure({ error })))
+        )
+      )
+    );
+  });
+  loadRefrigerator$ &#x3D; createEffect(() &#x3D;&gt; {
+    return this.actions$.pipe(
+      ofType(RefrigeratorActions.loadRefrigerator),
+      map((action: any) &#x3D;&gt; action?.data),
+      switchMap((id) &#x3D;&gt;
+        this.refrigeratorService.getRefrigerator(id).pipe(
+          map((refrigerator) &#x3D;&gt;
+            loadRefrigeratorSuccess({ data: refrigerator })
+          ),
+          catchError((error) &#x3D;&gt; of(loadRefrigeratorFailure({ error })))
+        )
+      )
+    );
+  });
+
+  deleteRefrigeratorSuccess$ &#x3D; createEffect(() &#x3D;&gt; {
+    return this.actions$.pipe(
+      ofType(RefrigeratorActions.deleteRefrigeratorSuccess),
+      tap(() &#x3D;&gt; {
+        this.alertService.Messagesuccess(&#x27;Refrigerador eliminado con exito&#x27;);
+      }),
+      map(() &#x3D;&gt; loadRefrigerators())
+    );
+  });
+
+  constructor(
+    private actions$: Actions,
+    private refrigeratorService: RefrigeratorService,
+    private alertService: AlertService,
+    private router: Router
+  ) {}
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'RefrigeratorEffects.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

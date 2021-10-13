@@ -1,0 +1,4150 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>cold-chain documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">cold-chain documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-variables">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Variables</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#breadCrumbFeatureKey" title="libs/ui/src/lib/reducers/bread-crumb.reducer.ts" ><b>breadCrumbFeatureKey</b>&nbsp;&nbsp;&nbsp;(libs/.../bread-crumb.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#breadCrumbSelector" title="libs/ui/src/lib/reducers/index.ts" ><b>breadCrumbSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createDevice" title="libs/device/src/lib/actions/device.actions.ts" ><b>createDevice</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createDeviceFailure" title="libs/device/src/lib/actions/device.actions.ts" ><b>createDeviceFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createDeviceSuccess" title="libs/device/src/lib/actions/device.actions.ts" ><b>createDeviceSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createRefrigerator" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>createRefrigerator</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createRefrigeratorFailure" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>createRefrigeratorFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createRefrigeratorSuccess" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>createRefrigeratorSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createVaccine" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>createVaccine</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createVaccineFailure" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>createVaccineFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createVaccineSuccess" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>createVaccineSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deleteDevice" title="libs/device/src/lib/actions/device.actions.ts" ><b>deleteDevice</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deleteDeviceFailure" title="libs/device/src/lib/actions/device.actions.ts" ><b>deleteDeviceFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deleteDeviceSuccess" title="libs/device/src/lib/actions/device.actions.ts" ><b>deleteDeviceSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deleteRefrigerator" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>deleteRefrigerator</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deleteRefrigeratorFailure" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>deleteRefrigeratorFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deleteRefrigeratorSuccess" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>deleteRefrigeratorSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deleteVaccine" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>deleteVaccine</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deleteVaccineFailure" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>deleteVaccineFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deleteVaccineSuccess" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>deleteVaccineSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deviceFeatureKey" title="libs/device/src/lib/reducers/device.reducer.ts" ><b>deviceFeatureKey</b>&nbsp;&nbsp;&nbsp;(libs/.../device.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#deviceListFeatureKey" title="libs/device/src/lib/reducers/device-list.reducer.ts" ><b>deviceListFeatureKey</b>&nbsp;&nbsp;&nbsp;(libs/.../device-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#DeviceListSelector" title="libs/device/src/lib/reducers/index.ts" ><b>DeviceListSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#DeviceModuleSelector" title="libs/device/src/lib/reducers/index.ts" ><b>DeviceModuleSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#DeviceSelector" title="libs/device/src/lib/reducers/index.ts" ><b>DeviceSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#editDevice" title="libs/device/src/lib/actions/device.actions.ts" ><b>editDevice</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#editDeviceFailure" title="libs/device/src/lib/actions/device.actions.ts" ><b>editDeviceFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#editDeviceSuccess" title="libs/device/src/lib/actions/device.actions.ts" ><b>editDeviceSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#editVaccine" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>editVaccine</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#editVaccineFailure" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>editVaccineFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#editVaccineSuccess" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>editVaccineSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#environment" title="apps/cold-chain-front/src/environments/environment.ts" ><b>environment</b>&nbsp;&nbsp;&nbsp;(apps/.../environment.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#environment" title="apps/cold-chain-front/src/environments/environment.prod.ts" ><b>environment</b>&nbsp;&nbsp;&nbsp;(apps/.../environment.prod.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getBreadCrumb" title="libs/ui/src/lib/reducers/bread-crumb.reducer.ts" ><b>getBreadCrumb</b>&nbsp;&nbsp;&nbsp;(libs/.../bread-crumb.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getBreadCrumb" title="libs/ui/src/lib/reducers/index.ts" ><b>getBreadCrumb</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDevice" title="libs/device/src/lib/reducers/device.reducer.ts" ><b>getDevice</b>&nbsp;&nbsp;&nbsp;(libs/.../device.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDevice" title="libs/device/src/lib/reducers/index.ts" ><b>getDevice</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDeviceError" title="libs/device/src/lib/reducers/device.reducer.ts" ><b>getDeviceError</b>&nbsp;&nbsp;&nbsp;(libs/.../device.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDeviceError" title="libs/device/src/lib/reducers/index.ts" ><b>getDeviceError</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDeviceList" title="libs/device/src/lib/reducers/device-list.reducer.ts" ><b>getDeviceList</b>&nbsp;&nbsp;&nbsp;(libs/.../device-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDeviceList" title="libs/device/src/lib/reducers/index.ts" ><b>getDeviceList</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDeviceListError" title="libs/device/src/lib/reducers/device-list.reducer.ts" ><b>getDeviceListError</b>&nbsp;&nbsp;&nbsp;(libs/.../device-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDeviceListError" title="libs/device/src/lib/reducers/index.ts" ><b>getDeviceListError</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDeviceListLoading" title="libs/device/src/lib/reducers/device-list.reducer.ts" ><b>getDeviceListLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../device-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDeviceListLoading" title="libs/device/src/lib/reducers/index.ts" ><b>getDeviceListLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDeviceLoading" title="libs/device/src/lib/reducers/device.reducer.ts" ><b>getDeviceLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../device.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getDeviceLoading" title="libs/device/src/lib/reducers/index.ts" ><b>getDeviceLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getError" title="libs/device/src/lib/reducers/metric-list.reducer.ts" ><b>getError</b>&nbsp;&nbsp;&nbsp;(libs/.../metric-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getError" title="libs/refrigerator/src/lib/reducers/refrigerator.reducer.ts" ><b>getError</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getError" title="libs/refrigerator/src/lib/reducers/refrigetaror-list.reducer.ts" ><b>getError</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigetaror-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getError" title="libs/vaccine-config/src/lib/reducers/vaccine-list.reducer.ts" ><b>getError</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getError" title="libs/vaccine-config/src/lib/reducers/vaccine.reducer.ts" ><b>getError</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getGreeting" title="apps/cold-chain-front-e2e/src/support/app.po.ts" ><b>getGreeting</b>&nbsp;&nbsp;&nbsp;(apps/.../app.po.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getList" title="libs/device/src/lib/reducers/metric-list.reducer.ts" ><b>getList</b>&nbsp;&nbsp;&nbsp;(libs/.../metric-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getList" title="libs/refrigerator/src/lib/reducers/refrigetaror-list.reducer.ts" ><b>getList</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigetaror-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getList" title="libs/vaccine-config/src/lib/reducers/vaccine-list.reducer.ts" ><b>getList</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoading" title="libs/device/src/lib/reducers/metric-list.reducer.ts" ><b>getLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../metric-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoading" title="libs/refrigerator/src/lib/reducers/refrigerator.reducer.ts" ><b>getLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoading" title="libs/refrigerator/src/lib/reducers/refrigetaror-list.reducer.ts" ><b>getLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigetaror-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoading" title="libs/vaccine-config/src/lib/reducers/vaccine-list.reducer.ts" ><b>getLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getLoading" title="libs/vaccine-config/src/lib/reducers/vaccine.reducer.ts" ><b>getLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getMetricList" title="libs/device/src/lib/reducers/index.ts" ><b>getMetricList</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getMetricListError" title="libs/device/src/lib/reducers/index.ts" ><b>getMetricListError</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getMetricListLoading" title="libs/device/src/lib/reducers/index.ts" ><b>getMetricListLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getRefrigerator" title="libs/refrigerator/src/lib/reducers/index.ts" ><b>getRefrigerator</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getRefrigerator" title="libs/refrigerator/src/lib/reducers/refrigerator.reducer.ts" ><b>getRefrigerator</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getRefrigeratorError" title="libs/refrigerator/src/lib/reducers/index.ts" ><b>getRefrigeratorError</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getRefrigeratorList" title="libs/refrigerator/src/lib/reducers/index.ts" ><b>getRefrigeratorList</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getRefrigeratorListerror" title="libs/refrigerator/src/lib/reducers/index.ts" ><b>getRefrigeratorListerror</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getRefrigeratorListLoading" title="libs/refrigerator/src/lib/reducers/index.ts" ><b>getRefrigeratorListLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getRefrigeratorLoading" title="libs/refrigerator/src/lib/reducers/index.ts" ><b>getRefrigeratorLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getVaccine" title="libs/vaccine-config/src/lib/reducers/index.ts" ><b>getVaccine</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getVaccine" title="libs/vaccine-config/src/lib/reducers/vaccine.reducer.ts" ><b>getVaccine</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getVaccineError" title="libs/vaccine-config/src/lib/reducers/index.ts" ><b>getVaccineError</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getVaccineList" title="libs/vaccine-config/src/lib/reducers/index.ts" ><b>getVaccineList</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getVaccineListError" title="libs/vaccine-config/src/lib/reducers/index.ts" ><b>getVaccineListError</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getVaccineListLoading" title="libs/vaccine-config/src/lib/reducers/index.ts" ><b>getVaccineListLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getVaccineLoading" title="libs/vaccine-config/src/lib/reducers/index.ts" ><b>getVaccineLoading</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="libs/device/src/lib/reducers/device-list.reducer.ts" ><b>initialState</b>&nbsp;&nbsp;&nbsp;(libs/.../device-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="libs/device/src/lib/reducers/device.reducer.ts" ><b>initialState</b>&nbsp;&nbsp;&nbsp;(libs/.../device.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="libs/device/src/lib/reducers/metric-list.reducer.ts" ><b>initialState</b>&nbsp;&nbsp;&nbsp;(libs/.../metric-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="libs/refrigerator/src/lib/reducers/refrigerator.reducer.ts" ><b>initialState</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="libs/refrigerator/src/lib/reducers/refrigetaror-list.reducer.ts" ><b>initialState</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigetaror-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="libs/ui/src/lib/reducers/bread-crumb.reducer.ts" ><b>initialState</b>&nbsp;&nbsp;&nbsp;(libs/.../bread-crumb.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="libs/vaccine-config/src/lib/reducers/vaccine-list.reducer.ts" ><b>initialState</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#initialState" title="libs/vaccine-config/src/lib/reducers/vaccine.reducer.ts" ><b>initialState</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadBreadCrumb" title="libs/ui/src/lib/actions/bread-crumb.actions.ts" ><b>loadBreadCrumb</b>&nbsp;&nbsp;&nbsp;(libs/.../bread-crumb.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadBreadCrumbFailure" title="libs/ui/src/lib/actions/bread-crumb.actions.ts" ><b>loadBreadCrumbFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../bread-crumb.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadBreadCrumbSuccess" title="libs/ui/src/lib/actions/bread-crumb.actions.ts" ><b>loadBreadCrumbSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../bread-crumb.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadDevice" title="libs/device/src/lib/actions/device.actions.ts" ><b>loadDevice</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadDeviceFailure" title="libs/device/src/lib/actions/device.actions.ts" ><b>loadDeviceFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadDevices" title="libs/device/src/lib/actions/device.actions.ts" ><b>loadDevices</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadDevicesFailure" title="libs/device/src/lib/actions/device.actions.ts" ><b>loadDevicesFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadDevicesSuccess" title="libs/device/src/lib/actions/device.actions.ts" ><b>loadDevicesSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadDeviceSuccess" title="libs/device/src/lib/actions/device.actions.ts" ><b>loadDeviceSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../device.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#LoadMetricLists" title="libs/device/src/lib/actions/metric-list.actions.ts" ><b>LoadMetricLists</b>&nbsp;&nbsp;&nbsp;(libs/.../metric-list.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#LoadMetricListsFailure" title="libs/device/src/lib/actions/metric-list.actions.ts" ><b>LoadMetricListsFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../metric-list.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#LoadMetricListsSuccess" title="libs/device/src/lib/actions/metric-list.actions.ts" ><b>LoadMetricListsSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../metric-list.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadRefrigerator" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>loadRefrigerator</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadRefrigeratorFailure" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>loadRefrigeratorFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadRefrigerators" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>loadRefrigerators</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadRefrigeratorsFailure" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>loadRefrigeratorsFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadRefrigeratorsSuccess" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>loadRefrigeratorsSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadRefrigeratorSuccess" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>loadRefrigeratorSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadVaccine" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>loadVaccine</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadVaccineFailure" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>loadVaccineFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadVaccines" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>loadVaccines</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadVaccinesFailure" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>loadVaccinesFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadVaccinesSuccess" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>loadVaccinesSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#loadVaccineSuccess" title="libs/vaccine-config/src/lib/actions/vaccine.actions.ts" ><b>loadVaccineSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#metricListFeatureKey" title="libs/device/src/lib/reducers/metric-list.reducer.ts" ><b>metricListFeatureKey</b>&nbsp;&nbsp;&nbsp;(libs/.../metric-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#MetricListSelector" title="libs/device/src/lib/reducers/index.ts" ><b>MetricListSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/device/src/lib/reducers/device-list.reducer.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../device-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/device/src/lib/reducers/device.reducer.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../device.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/device/src/lib/reducers/index.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/device/src/lib/reducers/metric-list.reducer.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../metric-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/refrigerator/src/lib/reducers/refrigerator.reducer.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/refrigerator/src/lib/reducers/refrigetaror-list.reducer.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigetaror-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/ui/src/lib/reducers/bread-crumb.reducer.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../bread-crumb.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/ui/src/lib/reducers/index.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/vaccine-config/src/lib/reducers/index.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/vaccine-config/src/lib/reducers/vaccine-list.reducer.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducer" title="libs/vaccine-config/src/lib/reducers/vaccine.reducer.ts" ><b>reducer</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#reducers" title="libs/refrigerator/src/lib/reducers/index.ts" ><b>reducers</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#refrigeratorFeatureKey" title="libs/refrigerator/src/lib/reducers/refrigerator.reducer.ts" ><b>refrigeratorFeatureKey</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#RefrigeratorListSelector" title="libs/refrigerator/src/lib/reducers/index.ts" ><b>RefrigeratorListSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#RefrigeratorModuleSelector" title="libs/refrigerator/src/lib/reducers/index.ts" ><b>RefrigeratorModuleSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#RefrigeratorSelector" title="libs/refrigerator/src/lib/reducers/index.ts" ><b>RefrigeratorSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#refrigetarorListFeatureKey" title="libs/refrigerator/src/lib/reducers/refrigetaror-list.reducer.ts" ><b>refrigetarorListFeatureKey</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigetaror-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#UiModuleSelector" title="libs/ui/src/lib/reducers/index.ts" ><b>UiModuleSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#updateRefrigerator" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>updateRefrigerator</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#updateRefrigeratorFailure" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>updateRefrigeratorFailure</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#updateRefrigeratorSuccess" title="libs/refrigerator/src/lib/actions/refrigerator.actions.ts" ><b>updateRefrigeratorSuccess</b>&nbsp;&nbsp;&nbsp;(libs/.../refrigerator.actions.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#uri" title="apps/cold-chain-front/src/app/graphql.module.ts" ><b>uri</b>&nbsp;&nbsp;&nbsp;(apps/.../graphql.module.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#vaccineFeatureKey" title="libs/vaccine-config/src/lib/reducers/vaccine.reducer.ts" ><b>vaccineFeatureKey</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#vaccineListFeatureKey" title="libs/vaccine-config/src/lib/reducers/vaccine-list.reducer.ts" ><b>vaccineListFeatureKey</b>&nbsp;&nbsp;&nbsp;(libs/.../vaccine-list.reducer.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#VaccineListSelector" title="libs/vaccine-config/src/lib/reducers/index.ts" ><b>VaccineListSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#VaccineModuleSelector" title="libs/vaccine-config/src/lib/reducers/index.ts" ><b>VaccineModuleSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#VaccineSelector" title="libs/vaccine-config/src/lib/reducers/index.ts" ><b>VaccineSelector</b>&nbsp;&nbsp;&nbsp;(libs/.../index.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>libs/ui/src/lib/reducers/bread-crumb.reducer.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="breadCrumbFeatureKey"></a>
+                    <span class="name">
+                        <span ><b>breadCrumbFeatureKey</b></span>
+                        <a href="#breadCrumbFeatureKey"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;breadCrumb&#x27;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getBreadCrumb"></a>
+                    <span class="name">
+                        <span ><b>getBreadCrumb</b></span>
+                        <a href="#getBreadCrumb"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.breadCrumb</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initialState"></a>
+                    <span class="name">
+                        <span ><b>initialState</b></span>
+                        <a href="#initialState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  breadCrumb: null,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createReducer(
+  initialState,
+  on(
+    loadBreadCrumb,
+    (_, action): State &#x3D;&gt; ({
+      breadCrumb: action?.data,
+    })
+  )
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/ui/src/lib/reducers/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="breadCrumbSelector"></a>
+                    <span class="name">
+                        <span ><b>breadCrumbSelector</b></span>
+                        <a href="#breadCrumbSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  UiModuleSelector,
+  (state: UiModule) &#x3D;&gt; state.breadCrumb
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getBreadCrumb"></a>
+                    <span class="name">
+                        <span ><b>getBreadCrumb</b></span>
+                        <a href="#getBreadCrumb"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  breadCrumbSelector,
+  breadCrumb.getBreadCrumb
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  breadCrumb: breadCrumb.reducer,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="UiModuleSelector"></a>
+                    <span class="name">
+                        <span ><b>UiModuleSelector</b></span>
+                        <a href="#UiModuleSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createFeatureSelector&lt;UiModule&gt;(&#x27;UiModule&#x27;)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/device/src/lib/actions/device.actions.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createDevice"></a>
+                    <span class="name">
+                        <span ><b>createDevice</b></span>
+                        <a href="#createDevice"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.createDevice,
+  props&lt;{ data: Device }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createDeviceFailure"></a>
+                    <span class="name">
+                        <span ><b>createDeviceFailure</b></span>
+                        <a href="#createDeviceFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.createDeviceFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createDeviceSuccess"></a>
+                    <span class="name">
+                        <span ><b>createDeviceSuccess</b></span>
+                        <a href="#createDeviceSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.createDeviceSuccess,
+  props&lt;{ data: Device }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteDevice"></a>
+                    <span class="name">
+                        <span ><b>deleteDevice</b></span>
+                        <a href="#deleteDevice"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.deleteDevice,
+  props&lt;{ data: string }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteDeviceFailure"></a>
+                    <span class="name">
+                        <span ><b>deleteDeviceFailure</b></span>
+                        <a href="#deleteDeviceFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.deleteDeviceFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteDeviceSuccess"></a>
+                    <span class="name">
+                        <span ><b>deleteDeviceSuccess</b></span>
+                        <a href="#deleteDeviceSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.deleteDeviceSuccess,
+  props&lt;{ data: Device }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="editDevice"></a>
+                    <span class="name">
+                        <span ><b>editDevice</b></span>
+                        <a href="#editDevice"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.editDevice,
+  props&lt;{ data: Device }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="editDeviceFailure"></a>
+                    <span class="name">
+                        <span ><b>editDeviceFailure</b></span>
+                        <a href="#editDeviceFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.editDeviceFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="editDeviceSuccess"></a>
+                    <span class="name">
+                        <span ><b>editDeviceSuccess</b></span>
+                        <a href="#editDeviceSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.editDeviceSuccess,
+  props&lt;{ data: Device }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadDevice"></a>
+                    <span class="name">
+                        <span ><b>loadDevice</b></span>
+                        <a href="#loadDevice"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.loadDevice,
+  props&lt;{ data: string }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadDeviceFailure"></a>
+                    <span class="name">
+                        <span ><b>loadDeviceFailure</b></span>
+                        <a href="#loadDeviceFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.loadDeviceFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadDevices"></a>
+                    <span class="name">
+                        <span ><b>loadDevices</b></span>
+                        <a href="#loadDevices"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(deviceActions.loadDevices)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadDevicesFailure"></a>
+                    <span class="name">
+                        <span ><b>loadDevicesFailure</b></span>
+                        <a href="#loadDevicesFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.loadDevicesFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadDevicesSuccess"></a>
+                    <span class="name">
+                        <span ><b>loadDevicesSuccess</b></span>
+                        <a href="#loadDevicesSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.loadDevicesSuccess,
+  props&lt;{ data: Device[] }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadDeviceSuccess"></a>
+                    <span class="name">
+                        <span ><b>loadDeviceSuccess</b></span>
+                        <a href="#loadDeviceSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  deviceActions.loadDeviceSuccess,
+  props&lt;{ data: Device }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/refrigerator/src/lib/actions/refrigerator.actions.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createRefrigerator"></a>
+                    <span class="name">
+                        <span ><b>createRefrigerator</b></span>
+                        <a href="#createRefrigerator"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.createRefrigerator,
+  props&lt;{ data: Refrigerator }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createRefrigeratorFailure"></a>
+                    <span class="name">
+                        <span ><b>createRefrigeratorFailure</b></span>
+                        <a href="#createRefrigeratorFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.createRefrigeratorFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createRefrigeratorSuccess"></a>
+                    <span class="name">
+                        <span ><b>createRefrigeratorSuccess</b></span>
+                        <a href="#createRefrigeratorSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.createRefrigeratorSuccess,
+  props&lt;{ data: Refrigerator }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteRefrigerator"></a>
+                    <span class="name">
+                        <span ><b>deleteRefrigerator</b></span>
+                        <a href="#deleteRefrigerator"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.deleteRefrigerator,
+  props&lt;{ data: Refrigerator }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteRefrigeratorFailure"></a>
+                    <span class="name">
+                        <span ><b>deleteRefrigeratorFailure</b></span>
+                        <a href="#deleteRefrigeratorFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.deleteRefrigeratorFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteRefrigeratorSuccess"></a>
+                    <span class="name">
+                        <span ><b>deleteRefrigeratorSuccess</b></span>
+                        <a href="#deleteRefrigeratorSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.deleteRefrigeratorSuccess
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadRefrigerator"></a>
+                    <span class="name">
+                        <span ><b>loadRefrigerator</b></span>
+                        <a href="#loadRefrigerator"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.loadRefrigerator,
+  props&lt;{ data: string }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadRefrigeratorFailure"></a>
+                    <span class="name">
+                        <span ><b>loadRefrigeratorFailure</b></span>
+                        <a href="#loadRefrigeratorFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.loadRefrigeratorFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadRefrigerators"></a>
+                    <span class="name">
+                        <span ><b>loadRefrigerators</b></span>
+                        <a href="#loadRefrigerators"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.loadRefrigerators
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadRefrigeratorsFailure"></a>
+                    <span class="name">
+                        <span ><b>loadRefrigeratorsFailure</b></span>
+                        <a href="#loadRefrigeratorsFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.loadRefrigeratorsFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadRefrigeratorsSuccess"></a>
+                    <span class="name">
+                        <span ><b>loadRefrigeratorsSuccess</b></span>
+                        <a href="#loadRefrigeratorsSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.loadRefrigeratorsSuccess,
+  props&lt;{ data: Refrigerator[] }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadRefrigeratorSuccess"></a>
+                    <span class="name">
+                        <span ><b>loadRefrigeratorSuccess</b></span>
+                        <a href="#loadRefrigeratorSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.loadRefrigeratorSuccess,
+  props&lt;{ data: Refrigerator }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateRefrigerator"></a>
+                    <span class="name">
+                        <span ><b>updateRefrigerator</b></span>
+                        <a href="#updateRefrigerator"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.updateRefrigerator,
+  props&lt;{ data: Refrigerator }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateRefrigeratorFailure"></a>
+                    <span class="name">
+                        <span ><b>updateRefrigeratorFailure</b></span>
+                        <a href="#updateRefrigeratorFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.updateRefrigeratorFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateRefrigeratorSuccess"></a>
+                    <span class="name">
+                        <span ><b>updateRefrigeratorSuccess</b></span>
+                        <a href="#updateRefrigeratorSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  RefrigeratorActions.updateRefrigeratorSuccess,
+  props&lt;{ data: Refrigerator }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/vaccine-config/src/lib/actions/vaccine.actions.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createVaccine"></a>
+                    <span class="name">
+                        <span ><b>createVaccine</b></span>
+                        <a href="#createVaccine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.createVaccine,
+  props&lt;{ data: Vaccine }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createVaccineFailure"></a>
+                    <span class="name">
+                        <span ><b>createVaccineFailure</b></span>
+                        <a href="#createVaccineFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.createVaccineFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createVaccineSuccess"></a>
+                    <span class="name">
+                        <span ><b>createVaccineSuccess</b></span>
+                        <a href="#createVaccineSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.createVaccineSuccess,
+  props&lt;{ data: Vaccine }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteVaccine"></a>
+                    <span class="name">
+                        <span ><b>deleteVaccine</b></span>
+                        <a href="#deleteVaccine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.deleteVaccine,
+  props&lt;{ id: string }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteVaccineFailure"></a>
+                    <span class="name">
+                        <span ><b>deleteVaccineFailure</b></span>
+                        <a href="#deleteVaccineFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.deleteVaccineFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deleteVaccineSuccess"></a>
+                    <span class="name">
+                        <span ><b>deleteVaccineSuccess</b></span>
+                        <a href="#deleteVaccineSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.deleteVaccineSuccess
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="editVaccine"></a>
+                    <span class="name">
+                        <span ><b>editVaccine</b></span>
+                        <a href="#editVaccine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.editVaccine,
+  props&lt;{ data: Vaccine }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="editVaccineFailure"></a>
+                    <span class="name">
+                        <span ><b>editVaccineFailure</b></span>
+                        <a href="#editVaccineFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.editVaccineFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="editVaccineSuccess"></a>
+                    <span class="name">
+                        <span ><b>editVaccineSuccess</b></span>
+                        <a href="#editVaccineSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.editVaccineSuccess,
+  props&lt;{ data: Vaccine }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadVaccine"></a>
+                    <span class="name">
+                        <span ><b>loadVaccine</b></span>
+                        <a href="#loadVaccine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.loadVaccine,
+  props&lt;{ id: string }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadVaccineFailure"></a>
+                    <span class="name">
+                        <span ><b>loadVaccineFailure</b></span>
+                        <a href="#loadVaccineFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.loadVaccineFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadVaccines"></a>
+                    <span class="name">
+                        <span ><b>loadVaccines</b></span>
+                        <a href="#loadVaccines"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(VaccineActions.loadVaccines)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadVaccinesFailure"></a>
+                    <span class="name">
+                        <span ><b>loadVaccinesFailure</b></span>
+                        <a href="#loadVaccinesFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.loadVaccinesFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadVaccinesSuccess"></a>
+                    <span class="name">
+                        <span ><b>loadVaccinesSuccess</b></span>
+                        <a href="#loadVaccinesSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.loadVaccinesSuccess,
+  props&lt;{ data: Vaccine[] }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadVaccineSuccess"></a>
+                    <span class="name">
+                        <span ><b>loadVaccineSuccess</b></span>
+                        <a href="#loadVaccineSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  VaccineActions.loadVaccineSuccess,
+  props&lt;{ data: Vaccine }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/device/src/lib/reducers/device.reducer.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deviceFeatureKey"></a>
+                    <span class="name">
+                        <span ><b>deviceFeatureKey</b></span>
+                        <a href="#deviceFeatureKey"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;device&#x27;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDevice"></a>
+                    <span class="name">
+                        <span ><b>getDevice</b></span>
+                        <a href="#getDevice"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.device</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDeviceError"></a>
+                    <span class="name">
+                        <span ><b>getDeviceError</b></span>
+                        <a href="#getDeviceError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.error</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDeviceLoading"></a>
+                    <span class="name">
+                        <span ><b>getDeviceLoading</b></span>
+                        <a href="#getDeviceLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loading</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initialState"></a>
+                    <span class="name">
+                        <span ><b>initialState</b></span>
+                        <a href="#initialState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  device: null,
+  error: null,
+  loading: false,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createReducer(
+  initialState,
+  on(
+    deviceActions.loadDevice,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+    })
+  ),
+  on(
+    deviceActions.loadDeviceSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      device: data,
+    })
+  ),
+  on(
+    deviceActions.loadDeviceFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  ),
+  on(
+    deviceActions.createDevice,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+    })
+  ),
+  on(
+    deviceActions.createDeviceSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      device: data,
+    })
+  ),
+  on(
+    deviceActions.createDeviceFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  ),
+  on(
+    deviceActions.editDevice,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+      device: data,
+    })
+  ),
+  on(
+    deviceActions.editDeviceSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      device: data,
+    })
+  ),
+  on(
+    deviceActions.editDeviceFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  )
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/device/src/lib/reducers/device-list.reducer.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="deviceListFeatureKey"></a>
+                    <span class="name">
+                        <span ><b>deviceListFeatureKey</b></span>
+                        <a href="#deviceListFeatureKey"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;deviceList&#x27;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDeviceList"></a>
+                    <span class="name">
+                        <span ><b>getDeviceList</b></span>
+                        <a href="#getDeviceList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.list</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDeviceListError"></a>
+                    <span class="name">
+                        <span ><b>getDeviceListError</b></span>
+                        <a href="#getDeviceListError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.error</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDeviceListLoading"></a>
+                    <span class="name">
+                        <span ><b>getDeviceListLoading</b></span>
+                        <a href="#getDeviceListLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loading</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initialState"></a>
+                    <span class="name">
+                        <span ><b>initialState</b></span>
+                        <a href="#initialState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  error: null,
+  list: [],
+  loading: false,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createReducer(
+  initialState,
+  on(
+    actions.loadDevices,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+    })
+  ),
+  on(
+    actions.loadDevicesSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      list: data,
+    })
+  ),
+  on(
+    actions.loadDevicesFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  )
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/device/src/lib/reducers/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="DeviceListSelector"></a>
+                    <span class="name">
+                        <span ><b>DeviceListSelector</b></span>
+                        <a href="#DeviceListSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  DeviceModuleSelector,
+  (state: DeviceStateModule) &#x3D;&gt; state.deviceList
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="DeviceModuleSelector"></a>
+                    <span class="name">
+                        <span ><b>DeviceModuleSelector</b></span>
+                        <a href="#DeviceModuleSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createFeatureSelector&lt;DeviceStateModule&gt;(
+  &#x27;DeviceModule&#x27;
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="DeviceSelector"></a>
+                    <span class="name">
+                        <span ><b>DeviceSelector</b></span>
+                        <a href="#DeviceSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  DeviceModuleSelector,
+  (state: DeviceStateModule) &#x3D;&gt; state.device
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDevice"></a>
+                    <span class="name">
+                        <span ><b>getDevice</b></span>
+                        <a href="#getDevice"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  DeviceSelector,
+  deviceReducer.getDevice
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDeviceError"></a>
+                    <span class="name">
+                        <span ><b>getDeviceError</b></span>
+                        <a href="#getDeviceError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  DeviceSelector,
+  deviceReducer.getDeviceError
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDeviceList"></a>
+                    <span class="name">
+                        <span ><b>getDeviceList</b></span>
+                        <a href="#getDeviceList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  DeviceListSelector,
+  deviceListReducer.getDeviceList
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDeviceListError"></a>
+                    <span class="name">
+                        <span ><b>getDeviceListError</b></span>
+                        <a href="#getDeviceListError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  DeviceListSelector,
+  deviceListReducer.getDeviceListError
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDeviceListLoading"></a>
+                    <span class="name">
+                        <span ><b>getDeviceListLoading</b></span>
+                        <a href="#getDeviceListLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  DeviceListSelector,
+  deviceListReducer.getDeviceListLoading
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDeviceLoading"></a>
+                    <span class="name">
+                        <span ><b>getDeviceLoading</b></span>
+                        <a href="#getDeviceLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  DeviceSelector,
+  deviceReducer.getDeviceLoading
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getMetricList"></a>
+                    <span class="name">
+                        <span ><b>getMetricList</b></span>
+                        <a href="#getMetricList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  MetricListSelector,
+  metricicListReducer.getList
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getMetricListError"></a>
+                    <span class="name">
+                        <span ><b>getMetricListError</b></span>
+                        <a href="#getMetricListError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  MetricListSelector,
+  metricicListReducer.getError
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getMetricListLoading"></a>
+                    <span class="name">
+                        <span ><b>getMetricListLoading</b></span>
+                        <a href="#getMetricListLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  MetricListSelector,
+  metricicListReducer.getLoading
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="MetricListSelector"></a>
+                    <span class="name">
+                        <span ><b>MetricListSelector</b></span>
+                        <a href="#MetricListSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  DeviceModuleSelector,
+  (state: DeviceStateModule) &#x3D;&gt; state.metricList
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  deviceList: deviceListReducer.reducer,
+  device: deviceReducer.reducer,
+  metricList: metricicListReducer.reducer,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>apps/cold-chain-front/src/environments/environment.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="environment"></a>
+                    <span class="name">
+                        <span ><b>environment</b></span>
+                        <a href="#environment"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  production: false,
+  urlApi:&quot;http://localhost:3000/graphql&quot;
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>apps/cold-chain-front/src/environments/environment.prod.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="environment"></a>
+                    <span class="name">
+                        <span ><b>environment</b></span>
+                        <a href="#environment"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  production: true,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/device/src/lib/reducers/metric-list.reducer.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getError"></a>
+                    <span class="name">
+                        <span ><b>getError</b></span>
+                        <a href="#getError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.error</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getList"></a>
+                    <span class="name">
+                        <span ><b>getList</b></span>
+                        <a href="#getList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.list</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLoading"></a>
+                    <span class="name">
+                        <span ><b>getLoading</b></span>
+                        <a href="#getLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loading</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initialState"></a>
+                    <span class="name">
+                        <span ><b>initialState</b></span>
+                        <a href="#initialState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  error: null,
+  list: [],
+  loading: false,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="metricListFeatureKey"></a>
+                    <span class="name">
+                        <span ><b>metricListFeatureKey</b></span>
+                        <a href="#metricListFeatureKey"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;metricList&#x27;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createReducer(
+  initialState,
+
+  on(
+    LoadMetricLists,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+    })
+  ),
+  on(
+    LoadMetricListsSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+      list: data,
+    })
+  ),
+  on(
+    LoadMetricListsFailure,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+      error: data,
+    })
+  )
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/refrigerator/src/lib/reducers/refrigerator.reducer.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getError"></a>
+                    <span class="name">
+                        <span ><b>getError</b></span>
+                        <a href="#getError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.error</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLoading"></a>
+                    <span class="name">
+                        <span ><b>getLoading</b></span>
+                        <a href="#getLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loading</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRefrigerator"></a>
+                    <span class="name">
+                        <span ><b>getRefrigerator</b></span>
+                        <a href="#getRefrigerator"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.refrigerator</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initialState"></a>
+                    <span class="name">
+                        <span ><b>initialState</b></span>
+                        <a href="#initialState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  error: null,
+  loading: false,
+  refrigerator: null,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createReducer(
+  initialState,
+
+  on(
+    loadRefrigerator,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+      refrigerator: null,
+    })
+  ),
+  on(
+    loadRefrigeratorSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      refrigerator: data,
+    })
+  ),
+  on(
+    loadRefrigeratorFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  ),
+  on(
+    createRefrigerator,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+      refrigerator: data,
+    })
+  ),
+  on(
+    createRefrigeratorSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      refrigerator: data,
+    })
+  ),
+  on(
+    createRefrigeratorFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  ),
+  on(
+    updateRefrigerator,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+      refrigerator: data,
+    })
+  ),
+  on(
+    updateRefrigeratorFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  ),
+  on(
+    updateRefrigeratorSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      refrigerator: data,
+    })
+  )
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="refrigeratorFeatureKey"></a>
+                    <span class="name">
+                        <span ><b>refrigeratorFeatureKey</b></span>
+                        <a href="#refrigeratorFeatureKey"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;refrigerator&#x27;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/refrigerator/src/lib/reducers/refrigetaror-list.reducer.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getError"></a>
+                    <span class="name">
+                        <span ><b>getError</b></span>
+                        <a href="#getError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.error</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getList"></a>
+                    <span class="name">
+                        <span ><b>getList</b></span>
+                        <a href="#getList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.list</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLoading"></a>
+                    <span class="name">
+                        <span ><b>getLoading</b></span>
+                        <a href="#getLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loading</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initialState"></a>
+                    <span class="name">
+                        <span ><b>initialState</b></span>
+                        <a href="#initialState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  list: [],
+  loading: false,
+  error: null,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createReducer(
+  initialState,
+  on(
+    loadRefrigerators,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+    })
+  ),
+  on(
+    loadRefrigeratorsSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      list: data,
+    })
+  ),
+  on(
+    loadRefrigeratorsFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      error,
+      loading: false,
+    })
+  )
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="refrigetarorListFeatureKey"></a>
+                    <span class="name">
+                        <span ><b>refrigetarorListFeatureKey</b></span>
+                        <a href="#refrigetarorListFeatureKey"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;refrigetarorList&#x27;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/vaccine-config/src/lib/reducers/vaccine-list.reducer.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getError"></a>
+                    <span class="name">
+                        <span ><b>getError</b></span>
+                        <a href="#getError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.error</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getList"></a>
+                    <span class="name">
+                        <span ><b>getList</b></span>
+                        <a href="#getList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.list</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLoading"></a>
+                    <span class="name">
+                        <span ><b>getLoading</b></span>
+                        <a href="#getLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loading</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initialState"></a>
+                    <span class="name">
+                        <span ><b>initialState</b></span>
+                        <a href="#initialState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  error: null,
+  list: [],
+  loading: false,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createReducer(
+  initialState,
+  on(
+    loadVaccines,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+    })
+  ),
+  on(
+    loadVaccinesSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      list: data,
+    })
+  ),
+  on(
+    loadVaccinesFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  )
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="vaccineListFeatureKey"></a>
+                    <span class="name">
+                        <span ><b>vaccineListFeatureKey</b></span>
+                        <a href="#vaccineListFeatureKey"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;vaccineList&#x27;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/vaccine-config/src/lib/reducers/vaccine.reducer.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getError"></a>
+                    <span class="name">
+                        <span ><b>getError</b></span>
+                        <a href="#getError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.error</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLoading"></a>
+                    <span class="name">
+                        <span ><b>getLoading</b></span>
+                        <a href="#getLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.loading</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getVaccine"></a>
+                    <span class="name">
+                        <span ><b>getVaccine</b></span>
+                        <a href="#getVaccine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(state: State) &#x3D;&gt; state.vaccine</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initialState"></a>
+                    <span class="name">
+                        <span ><b>initialState</b></span>
+                        <a href="#initialState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/State.html" target="_self" >State</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  error: null,
+  loading: false,
+  vaccine: null,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createReducer(
+  initialState,
+  on(
+    actions.createVaccine,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+    })
+  ),
+  on(
+    actions.createVaccineSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      vaccine: data,
+    })
+  ),
+  on(
+    actions.createVaccineFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  ),
+  on(
+    actions.deleteVaccine,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+    })
+  ),
+  on(
+    actions.deleteVaccineSuccess,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      vaccine: null,
+    })
+  ),
+  on(
+    actions.deleteVaccineFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  ),
+  on(
+    actions.editVaccine,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+    })
+  ),
+  on(
+    actions.editVaccineSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      vaccine: data,
+    })
+  ),
+  on(
+    actions.editVaccineFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  ),
+  on(
+    actions.loadVaccine,
+    (state): State &#x3D;&gt; ({
+      ...state,
+      loading: true,
+      vaccine: null,
+    })
+  ),
+  on(
+    actions.loadVaccineSuccess,
+    (state, { data }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      vaccine: data,
+    })
+  ),
+  on(
+    actions.loadVaccineFailure,
+    (state, { error }): State &#x3D;&gt; ({
+      ...state,
+      loading: false,
+      error,
+    })
+  )
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="vaccineFeatureKey"></a>
+                    <span class="name">
+                        <span ><b>vaccineFeatureKey</b></span>
+                        <a href="#vaccineFeatureKey"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;vaccine&#x27;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>apps/cold-chain-front-e2e/src/support/app.po.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getGreeting"></a>
+                    <span class="name">
+                        <span ><b>getGreeting</b></span>
+                        <a href="#getGreeting"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; cy.get(&#x27;h1&#x27;)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/refrigerator/src/lib/reducers/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRefrigerator"></a>
+                    <span class="name">
+                        <span ><b>getRefrigerator</b></span>
+                        <a href="#getRefrigerator"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  RefrigeratorSelector,
+  refrigeratorReducer.getRefrigerator
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRefrigeratorError"></a>
+                    <span class="name">
+                        <span ><b>getRefrigeratorError</b></span>
+                        <a href="#getRefrigeratorError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  RefrigeratorSelector,
+  refrigeratorReducer.getError
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRefrigeratorList"></a>
+                    <span class="name">
+                        <span ><b>getRefrigeratorList</b></span>
+                        <a href="#getRefrigeratorList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  RefrigeratorListSelector,
+  refrigeratorListReducer.getList
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRefrigeratorListerror"></a>
+                    <span class="name">
+                        <span ><b>getRefrigeratorListerror</b></span>
+                        <a href="#getRefrigeratorListerror"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  RefrigeratorListSelector,
+  refrigeratorListReducer.getError
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRefrigeratorListLoading"></a>
+                    <span class="name">
+                        <span ><b>getRefrigeratorListLoading</b></span>
+                        <a href="#getRefrigeratorListLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  RefrigeratorListSelector,
+  refrigeratorListReducer.getLoading
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRefrigeratorLoading"></a>
+                    <span class="name">
+                        <span ><b>getRefrigeratorLoading</b></span>
+                        <a href="#getRefrigeratorLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  RefrigeratorSelector,
+  refrigeratorReducer.getLoading
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducers"></a>
+                    <span class="name">
+                        <span ><b>reducers</b></span>
+                        <a href="#reducers"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  refrigeratorList: refrigeratorListReducer.reducer,
+  refrigerator: refrigeratorReducer.reducer,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="RefrigeratorListSelector"></a>
+                    <span class="name">
+                        <span ><b>RefrigeratorListSelector</b></span>
+                        <a href="#RefrigeratorListSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  RefrigeratorModuleSelector,
+  (state: RefrigeratorState) &#x3D;&gt; state.refrigeratorList
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="RefrigeratorModuleSelector"></a>
+                    <span class="name">
+                        <span ><b>RefrigeratorModuleSelector</b></span>
+                        <a href="#RefrigeratorModuleSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createFeatureSelector&lt;RefrigeratorState&gt;(
+  &#x27;RefrigeratorModule&#x27;
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="RefrigeratorSelector"></a>
+                    <span class="name">
+                        <span ><b>RefrigeratorSelector</b></span>
+                        <a href="#RefrigeratorSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  RefrigeratorModuleSelector,
+  (state: RefrigeratorState) &#x3D;&gt; state.refrigerator
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/vaccine-config/src/lib/reducers/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getVaccine"></a>
+                    <span class="name">
+                        <span ><b>getVaccine</b></span>
+                        <a href="#getVaccine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  VaccineSelector,
+  vaccineReducer.getVaccine
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getVaccineError"></a>
+                    <span class="name">
+                        <span ><b>getVaccineError</b></span>
+                        <a href="#getVaccineError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  VaccineSelector,
+  vaccineReducer.getError
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getVaccineList"></a>
+                    <span class="name">
+                        <span ><b>getVaccineList</b></span>
+                        <a href="#getVaccineList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  VaccineListSelector,
+  vaccineListReducer.getList
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getVaccineListError"></a>
+                    <span class="name">
+                        <span ><b>getVaccineListError</b></span>
+                        <a href="#getVaccineListError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  VaccineListSelector,
+  vaccineListReducer.getError
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getVaccineListLoading"></a>
+                    <span class="name">
+                        <span ><b>getVaccineListLoading</b></span>
+                        <a href="#getVaccineListLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  VaccineListSelector,
+  vaccineListReducer.getLoading
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getVaccineLoading"></a>
+                    <span class="name">
+                        <span ><b>getVaccineLoading</b></span>
+                        <a href="#getVaccineLoading"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  VaccineSelector,
+  vaccineReducer.getLoading
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reducer"></a>
+                    <span class="name">
+                        <span ><b>reducer</b></span>
+                        <a href="#reducer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+  vaccineList: vaccineListReducer.reducer,
+  vaccine: vaccineReducer.reducer,
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="VaccineListSelector"></a>
+                    <span class="name">
+                        <span ><b>VaccineListSelector</b></span>
+                        <a href="#VaccineListSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  VaccineModuleSelector,
+  (state: DeviceStateModule) &#x3D;&gt; state.vaccineList
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="VaccineModuleSelector"></a>
+                    <span class="name">
+                        <span ><b>VaccineModuleSelector</b></span>
+                        <a href="#VaccineModuleSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createFeatureSelector&lt;DeviceStateModule&gt;(
+  &#x27;VaccineModule&#x27;
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="VaccineSelector"></a>
+                    <span class="name">
+                        <span ><b>VaccineSelector</b></span>
+                        <a href="#VaccineSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createSelector(
+  VaccineModuleSelector,
+  (state: DeviceStateModule) &#x3D;&gt; state.vaccine
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/ui/src/lib/actions/bread-crumb.actions.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadBreadCrumb"></a>
+                    <span class="name">
+                        <span ><b>loadBreadCrumb</b></span>
+                        <a href="#loadBreadCrumb"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  BreadCrumbActions.loadBreadCrumb,
+  props&lt;{ data: BreadCrumb }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadBreadCrumbFailure"></a>
+                    <span class="name">
+                        <span ><b>loadBreadCrumbFailure</b></span>
+                        <a href="#loadBreadCrumbFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  BreadCrumbActions.loadBreadCrumbFailure,
+  props&lt;{ error: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadBreadCrumbSuccess"></a>
+                    <span class="name">
+                        <span ><b>loadBreadCrumbSuccess</b></span>
+                        <a href="#loadBreadCrumbSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  BreadCrumbActions.loadBreadCrumbSuccess,
+  props&lt;{ data: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>libs/device/src/lib/actions/metric-list.actions.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="LoadMetricLists"></a>
+                    <span class="name">
+                        <span ><b>LoadMetricLists</b></span>
+                        <a href="#LoadMetricLists"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  MetricListActionTypes.LoadMetricLists,
+  props&lt;{ data: string }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="LoadMetricListsFailure"></a>
+                    <span class="name">
+                        <span ><b>LoadMetricListsFailure</b></span>
+                        <a href="#LoadMetricListsFailure"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  MetricListActionTypes.LoadMetricListsFailure,
+  props&lt;{ data: any }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="LoadMetricListsSuccess"></a>
+                    <span class="name">
+                        <span ><b>LoadMetricListsSuccess</b></span>
+                        <a href="#LoadMetricListsSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>createAction(
+  MetricListActionTypes.LoadMetricListsSuccess,
+  props&lt;{ data: Metric[] }&gt;()
+)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>apps/cold-chain-front/src/app/graphql.module.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="uri"></a>
+                    <span class="name">
+                        <span ><b>uri</b></span>
+                        <a href="#uri"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>environment.urlApi</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-variables';
+            var COMPODOC_CURRENT_PAGE_URL = 'variables.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
